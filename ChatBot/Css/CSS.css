@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* 
+{
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #555;
+	background: #ecf0f3;
+}
+
+.login-div {
+    width: 380px;
+    height: 629px;
+    padding: 50px 35px 35px 35px;
+	border-radius: 40px;
+	background: #ecf0f3;
+	box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #ffffff;
+}
+.sign-div
+{
+    width: 380px;
+    height: 629px;
+    padding: 45px 35px 35px 35px;
+	border-radius: 40px;
+	background: #ecf0f3;
+	box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #ffffff;
+}
+.Forgot-div
+{
+    width: 380px;
+    padding: 45px 35px 35px 35px;
+	border-radius: 40px;
+	background: #ecf0f3;
+	box-shadow: 10px 10px 20px #cbced1, -10px -10px 20px #ffffff; 
+}
+
+.logo {
+	background: url("ACoding.png");
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+	box-shadow: 0 0 2px #5f5f5f, 0 0 5px #ecf0f3, 8px 8px 15px #a7aaaf, -8px -8px 15px #ffffff;
+	background-size: cover;
+}
+.title {
+	text-align: center;
+	font-size: 28px;
+	color: #fc5130;
+	padding-top: 24px;
+	text-shadow: 10px 10px 15px #cbced1, -10px -10px 16px #ffffff;
+	letter-spacing: 0.5px;
+}
+
+.Login-in 
+{
+	width: 100%;
+	padding: 60px 5px 5px 5px;
+}
+.sign-up
+{
+    width: 100%;
+	padding: 7px 5px 5px 5px;
+}
+
+.Login-in input,
+.sign-up input {
+	border: none;
+	outline: none;
+	font-family: 'Poppins', sans-serif;
+	background: none;
+	font-size: 18px;
+	color: #555;
+	padding: 18px 10px 18px 1px;
+}
+.username,
+.password {
+	margin-bottom: 30px;
+	border-radius: 25px;
+	box-shadow:inset 5px 5px 8px #cbced1, inset -5px -5px 8px #ffffff
+}
+
+
+
+
+.username ::placeholder,
+.password ::placeholder {
+	color: #999;
+	font-family: 'Poppins', sans-serif;
+}
+.Login-in .lni,
+.sign-up .lni {
+	height: 22px;
+	color:#999;
+	margin: 0 10px -3px 25px;
+}
+.buttonF {
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	height: 60px;
+	border-radius: 30px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	background: #fc5130;
+	box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+}
+.buttonF:hover {
+	background: #000;
+}
+.buttonF:active {
+	background: #fc5130;
+}
+a
+{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+.link {
+	padding: 20px;
+	text-align: center;
+}
+.link a {
+	text-decoration: none;
+	color: #aaa;
+	font-size: 15px;
+}
+
+.link a:hover
+{
+	color: #000;
+}
+
+
+
+
+
+.Homeback
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center!important;
+    align-items: center!important;
+    justify-content: center!important;
+    display: flex;
+
+}  
+.homeBox
+{
+    width: 380px;
+    padding: 45px 35px 35px 35px;
+} 
+.success-check {
+    color: #fc5130;
+    margin: 0 auto;
+}
+.success-check i {
+    font-size: 3rem;
+}
+
+p
+{
+    color: #555;
+	font-size: 16px;
+	line-height: 27px;
+}
+
+
+img
+{
+	width: 100%;
+}
